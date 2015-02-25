@@ -60,7 +60,7 @@ void GroundStateProblem::setup() {
         SX theta = SX::sym("theta");
 
         vector<SX> params;
-        params.push_back(U0);
+//        params.push_back(U0);
 //        for (SX sx : dU) params.push_back(sx);
         for (SX sx : U) params.push_back(sx);
         for (SX sx : J) params.push_back(sx);

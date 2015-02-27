@@ -451,7 +451,7 @@ double mufunc3(double x) {
     return 1.77820606358231 - 1.9795818263926455e-11 * x + 1.1897718315201328e-22 * x * x - 2.9480343588099163e-34 * x * x*x;
 }
 
-double Power(double x, int n) {
+double Power(double x, double n) {
     return pow(x, n);
 }
 

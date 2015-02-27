@@ -1085,7 +1085,7 @@ int main(int argc, char** argv) {
 //            points.push(point);
         }
 
-        double muwidth = 0.02;
+        double muwidth = 0.05;
         for (int ix = 0; ix < nx; ix++) {
 //            double mu0 = 0.9411179399500129 - 3.5751626448519524e-13 * x[ix] - 7.407324226206937e-24 * x[ix] * x[ix] - 1.376619100837241e-35 * x[ix] * x[ix] * x[ix] +
 //                    4.1960731262022256e-47 * x[ix] * x[ix] * x[ix] * x[ix];

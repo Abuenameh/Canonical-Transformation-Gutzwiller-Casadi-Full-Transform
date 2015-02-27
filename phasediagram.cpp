@@ -1106,7 +1106,7 @@ int main(int argc, char** argv) {
                 Point point;
                 point.x = x[ix];
                 point.mu = mu[imu];
-                                                        points.push(point);
+//                                                        points.push(point);
             }
         }
         for (int ix = 0; ix < nx; ix++) {
@@ -1128,20 +1128,20 @@ int main(int argc, char** argv) {
                 Point point;
                 point.x = x[ix];
                 point.mu = mu[imu];
-                                            points.push(point);
+//                                            points.push(point);
             }
         }
         
         int nmu2 = 40;
-        int nx2 = 5;
+        int nx2 = 40;
         for (int ix = 0; ix < nx2; ix++) {
-            double x = 2e10 + ix*(3.2e11 - 3.01e11)/(nx2-1);
+            double x = 2e10 + ix*(3e11 - 2e10)/(nx2-1);
             for (int imu = 0; imu < nmu2; imu++) {
                 double mu = imu/(nmu2 - 1.);
                 Point point;
                 point.x = x;
                 point.mu = mu;
-//                points.push(point);
+                points.push(point);
             }
         }
         

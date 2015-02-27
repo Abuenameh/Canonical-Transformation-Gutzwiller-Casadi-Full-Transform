@@ -1118,8 +1118,8 @@ int main(int argc, char** argv) {
             }
         }
         
-        int nmu2 = 20;
-        int nx2 = 20;
+        int nmu2 = 40;
+        int nx2 = 40;
         for (int ix = 0; ix < nx2; ix++) {
             double x = 2e10 + ix*(3e11 - 2e10)/(nx2-1);
             for (int imu = 0; imu < nmu2; imu++) {

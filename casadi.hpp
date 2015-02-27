@@ -40,14 +40,10 @@ private:
     ptime start_time;
     ptime stop_time;
     
-//    static SX energy(vector<SX>& fin, vector<SX>& J, SX& U0, vector<SX>& dU, SX& mu, SX& theta);
-//    static SX energy(int i, int n, vector<SX>& fin, vector<SX>& J, SX& U0, vector<SX>& dU, SX& mu, SX& theta);
     static SX energy(vector<SX>& fin, vector<SX>& J, vector<SX>& U, SX& mu, SX& theta);
     static SX energy(int i, int n, vector<SX>& fin, vector<SX>& J, vector<SX>& U, SX& mu, SX& theta);
     
     vector<SX> fin;
-    SX U0;
-    vector<SX> dU;
     vector<SX> U;
     vector<SX> J;
     SX mu;
